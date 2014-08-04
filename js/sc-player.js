@@ -209,6 +209,7 @@
       soundcloud.addEventListener('onMediaPause', callbacks.onPause);
 
       return {
+      // THIS WAS CAUSING FIREFOX TO NOT BE ABLE TO LOAD NEW SONGS
 /*
         load: function(track) {
           var url = track.uri;
